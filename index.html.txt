@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>اعرف برجك من تاريخ الميلاد | صفات الأبراج والتوافق</title>
+
+<meta name="description" content="اكتب تاريخ ميلادك واعرف برجك الحقيقي مع الصفات والمميزات والعيوب والتوافق مع باقي الأبراج مجانًا.">
+
+<meta name="keywords" content="اعرف برجك, الأبراج, تاريخ الميلاد, صفات الأبراج, توافق الأبراج, برجك اليوم">
+
+<meta name="author" content="إسلام الهاشمي">
+
+<meta name="robots" content="index, follow">
+
+<link rel="icon" href="icon.png">
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+    <h1>اعرف برجك من تاريخ ميلادك</h1>
+    <p>موقع مجاني لمعرفة البرج والصفات والعيوب والتوافقات.</p>
+</header>
+
+<nav>
+    <a href="">الرئيسية</a>
+    <a href="">تاريخ الأبراج</a>
+    <a href="">توافقات الأبراج</a>
+    <a href="">مميزات وعيوب الأبراج</a>
+    <a href="">اتصل بنا</a>
+</nav>
+
+<main>
+
+<section>
+    <h2>اكتب تاريخ ميلادك</h2>
+
+    <form>
+        <label>اختر تاريخ الميلاد:</label>
+        <br><br>
+
+        <input type="date">
+
+        <br><br>
+
+        <button type="button" onclick="checkZodiac()">
+            اعرف برجك
+        </button>
+    </form>
+
+    <br>
+
+    <div id="result">سيظهر برجك هنا</div>
+
+</section>
+
+<section>
+    <h2>من نحن</h2>
+
+    <p>
+        إسلام الهاشمي، كاتب قصص ومبرمج، أنشر المحبة بين الجميع وتقبل المختلف.
+    </p>
+</section>
+
+<section>
+    <h2>صورة الموقع</h2>
+
+    <img src="pic.jpg" width="250">
+</section>
+
+<section>
+    <h2>للشكاوي والمقترحات</h2>
+
+    <a href="https://wa.me/201005727778" target="_blank">
+        <button>واتساب</button>
+    </a>
+</section>
+
+</main>
+
+<footer>
+    <p>إسلام الهاشمي © جميع الحقوق محفوظة</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
